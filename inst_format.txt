@@ -1,0 +1,15 @@
+000000 ADD Rdst,Rsrc1,Rsrc2
+000001 SUB Rdst,Rsrc1,Rsrc2
+000010 MUL Rdst,Rsrc1,Rsrc2
+000011 FADD Rdst,Rsrc1,Rsrc2
+000101 FMUL Rdst,Rsrc1,Rsrc2
+100000 AND Rdst,Rsrc1,Rsrc2
+100001 OR Rdst,Rsrc1,Rsrc2
+100110 XOR Rdst,Rsrc1,Rsrc2
+100010 NAND Rdst,Rsrc1,Rsrc2
+100011 NOR Rdst,Rsrc1,Rsrc2
+100111 XNOR Rdst,Rsrc1,Rsrc2
+100100 NOT Rdst,Rsrc1,Rsrc2
+100101 TCM Rdst,Rsrc1,Rsrc2
+000110 LDR Rdst,addr
+000111 STR Rdst,addr
